@@ -77,6 +77,11 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	   
 	   Reporter.log("Username validated successsfully", true);
 	   
+	   
+	   
+	   
+	   
+	   
    }
 
 

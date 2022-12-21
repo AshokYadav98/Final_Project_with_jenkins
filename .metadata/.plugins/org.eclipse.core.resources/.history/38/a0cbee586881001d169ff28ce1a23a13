@@ -18,10 +18,6 @@ public class BaseForAmazon
 		
 	    driver=new ChromeDriver();
 		
-	    
-	    
-	    
-	    
 		driver.manage().window().maximize();
 		
 		driver.get(UtilityPropertyAmazon.readDataFromPropertyFile("url"));

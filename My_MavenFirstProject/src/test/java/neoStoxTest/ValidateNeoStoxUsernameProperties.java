@@ -98,6 +98,11 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	   
 	   
 	   
+	   
+	   
+	   
+	   
+	   
    }
    
    @AfterMethod

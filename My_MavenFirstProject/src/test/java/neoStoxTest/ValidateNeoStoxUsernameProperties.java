@@ -94,6 +94,10 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	   
 	   Reporter.log("AccBalance test validated ", true);
 	   
+	   
+	   
+	   
+	   
    }
    
    @AfterMethod

@@ -79,13 +79,7 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
 	   
 	   
 	   
-	   
-	   
-	   
-	   
-	   
-	   
-	   
+	
    }
 
 

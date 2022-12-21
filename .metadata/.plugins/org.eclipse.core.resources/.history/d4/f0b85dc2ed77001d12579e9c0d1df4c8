@@ -1,0 +1,15 @@
+package exceptionsHandling;
+
+public class tryAndCatch {
+
+	public static void main(String[] args) 
+	{
+		
+		String b=null;
+		
+		System.out.println(b.charAt(1));
+		
+
+	}
+
+}

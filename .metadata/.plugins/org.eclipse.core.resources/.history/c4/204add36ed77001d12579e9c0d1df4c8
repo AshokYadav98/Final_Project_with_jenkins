@@ -1,0 +1,33 @@
+package exceptionsHandling;
+
+public class tryAndFinally {
+
+	public static void main(String[] args) 
+	{
+		
+		
+		String name="yadav";
+		
+		String a=null;
+		
+		try 
+		{
+			System.out.println(a.length());
+			System.out.println(name.charAt(10));//risky code
+		} 
+		catch(StringIndexOutOfBoundsException e) 
+		{
+			System.out.println("please enter correct index value");
+		}
+		finally 
+		{
+			System.out.println("Hi I Am Ashok");
+		}
+		
+		
+		
+		
+
+	}
+
+}

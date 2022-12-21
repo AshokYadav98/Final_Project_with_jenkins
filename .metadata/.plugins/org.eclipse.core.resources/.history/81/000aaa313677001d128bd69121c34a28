@@ -1,0 +1,27 @@
+package exceptionsHandling;
+
+public class Exa2 {
+
+	public static void main(String[] args) 
+	{
+		
+		String a =null;
+		
+		String b="Ashok";
+		
+		System.out.println(b.charAt(10));
+		
+		
+		
+		try 
+		{
+			System.out.println(a.length());  //risky code
+		} 
+		catch (NullPointerException e) 
+		{
+			System.out.println("we cant calculate length of null value");
+		}
+		
+	}
+
+}

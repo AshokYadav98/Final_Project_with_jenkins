@@ -89,7 +89,7 @@ public class ValidateNeoStoxUsernameProperties extends BaseProperties
    public void validateNeoStoxAccBalance() throws EncryptedDocumentException, IOException 
    {
 	  
-	   Assert.fail();
+	//   Assert.fail();
 	   Assert.assertNotNull(home.getAccBalance(driver),"TC fail anable to fetch account balance");
 	   
 	   Reporter.log("AccBalance test validated ", true);
